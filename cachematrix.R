@@ -14,7 +14,7 @@ list(set = set, get = get,
      getinverse = getinverse)
 }
 
-##This one for showing the inverse of a function@@
+##This one for showing the inverse of a matrix that was in the cache@@
 cacheSolve <- function(x, ...) {
    m <- x$getinverse()
    if(!is.null(m)) {
